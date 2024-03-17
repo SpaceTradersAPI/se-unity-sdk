@@ -1,0 +1,14 @@
+# SystemJson
+
+
+## Fields
+
+| Field                                                                     | Type                                                                      | Required                                                                  | Description                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `Symbol`                                                                  | *string*                                                                  | :heavy_check_mark:                                                        | The symbol of the system.                                                 |
+| `SectorSymbol`                                                            | *string*                                                                  | :heavy_check_mark:                                                        | The symbol of the sector.                                                 |
+| `Type`                                                                    | [SystemTypeJson](../../Models/Components/SystemTypeJson.md)               | :heavy_check_mark:                                                        | The type of system.                                                       |
+| `X`                                                                       | *long*                                                                    | :heavy_check_mark:                                                        | Relative position of the system in the sector in the x axis.              |
+| `Y`                                                                       | *long*                                                                    | :heavy_check_mark:                                                        | Relative position of the system in the sector in the y axis.              |
+| `Waypoints`                                                               | List<[SystemWaypointJson](../../Models/Components/SystemWaypointJson.md)> | :heavy_check_mark:                                                        | Waypoints in this system.                                                 |
+| `Factions`                                                                | List<[SystemFactionJson](../../Models/Components/SystemFactionJson.md)>   | :heavy_check_mark:                                                        | Factions that control this system.                                        |

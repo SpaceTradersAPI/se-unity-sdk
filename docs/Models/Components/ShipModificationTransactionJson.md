@@ -1,0 +1,14 @@
+# ShipModificationTransactionJson
+
+Result of a transaction for a ship modification, such as installing a mount or a module.
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `WaypointSymbol`                                                                      | *string*                                                                              | :heavy_check_mark:                                                                    | The symbol of the waypoint where the transaction took place.                          |
+| `ShipSymbol`                                                                          | *string*                                                                              | :heavy_check_mark:                                                                    | The symbol of the ship that made the transaction.                                     |
+| `TradeSymbol`                                                                         | *string*                                                                              | :heavy_check_mark:                                                                    | The symbol of the trade good.                                                         |
+| `TotalPrice`                                                                          | *long*                                                                                | :heavy_check_mark:                                                                    | The total price of the transaction.                                                   |
+| `Timestamp`                                                                           | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0) | :heavy_check_mark:                                                                    | The timestamp of the transaction.                                                     |

@@ -1,0 +1,12 @@
+# MetaJson
+
+Meta details for pagination.
+
+
+## Fields
+
+| Field                                                                                                                   | Type                                                                                                                    | Required                                                                                                                | Description                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `Total`                                                                                                                 | *long*                                                                                                                  | :heavy_check_mark:                                                                                                      | Shows the total amount of items of this kind that exist.                                                                |
+| `Page`                                                                                                                  | *long*                                                                                                                  | :heavy_check_mark:                                                                                                      | A page denotes an amount of items, offset from the first item. Each page holds an amount of items equal to the `limit`. |
+| `Limit`                                                                                                                 | *long*                                                                                                                  | :heavy_check_mark:                                                                                                      | The amount of items in each page. Limits how many items can be fetched at once.                                         |

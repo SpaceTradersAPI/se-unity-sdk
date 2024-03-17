@@ -1,0 +1,14 @@
+# ShipNavRouteWaypointJson
+
+The destination or departure of a ships nav route.
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `Symbol`                                                                                        | *string*                                                                                        | :heavy_check_mark:                                                                              | The symbol of the waypoint.                                                                     |
+| `Type`                                                                                          | [WaypointTypeJsonWaypointTypeJson](../../Models/Components/WaypointTypeJsonWaypointTypeJson.md) | :heavy_check_mark:                                                                              | The type of waypoint.                                                                           |
+| `SystemSymbol`                                                                                  | *string*                                                                                        | :heavy_check_mark:                                                                              | The symbol of the system.                                                                       |
+| `X`                                                                                             | *long*                                                                                          | :heavy_check_mark:                                                                              | Position in the universe in the x axis.                                                         |
+| `Y`                                                                                             | *long*                                                                                          | :heavy_check_mark:                                                                              | Position in the universe in the y axis.                                                         |

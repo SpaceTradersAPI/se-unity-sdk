@@ -1,0 +1,11 @@
+# RemoveMountData
+
+
+## Fields
+
+| Field                                                                                         | Type                                                                                          | Required                                                                                      | Description                                                                                   |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `Agent`                                                                                       | [AgentJson](../../Models/Components/AgentJson.md)                                             | :heavy_check_mark:                                                                            | Agent details.                                                                                |
+| `Mounts`                                                                                      | List<[ShipMountJson](../../Models/Components/ShipMountJson.md)>                               | :heavy_check_mark:                                                                            | List of installed mounts after the removal of the selected mount.                             |
+| `Cargo`                                                                                       | [ShipCargoJson](../../Models/Components/ShipCargoJson.md)                                     | :heavy_check_mark:                                                                            | Ship cargo details.                                                                           |
+| `Transaction`                                                                                 | [ShipModificationTransactionJson](../../Models/Components/ShipModificationTransactionJson.md) | :heavy_check_mark:                                                                            | Result of a transaction for a ship modification, such as installing a mount or a module.      |

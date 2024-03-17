@@ -1,0 +1,9 @@
+# WarpShipData
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `Fuel`                                                                                                   | [ShipFuelJson](../../Models/Components/ShipFuelJson.md)                                                  | :heavy_check_mark:                                                                                       | Details of the ship's fuel tanks including how much fuel was consumed during the last transit or action. |
+| `Nav`                                                                                                    | [ShipNavJson](../../Models/Components/ShipNavJson.md)                                                    | :heavy_check_mark:                                                                                       | The navigation information of the ship.                                                                  |

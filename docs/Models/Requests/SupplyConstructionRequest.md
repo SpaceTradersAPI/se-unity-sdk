@@ -1,0 +1,10 @@
+# SupplyConstructionRequest
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `SystemSymbol`                                                                          | *string*                                                                                | :heavy_check_mark:                                                                      | The system symbol                                                                       |
+| `WaypointSymbol`                                                                        | *string*                                                                                | :heavy_check_mark:                                                                      | The waypoint symbol                                                                     |
+| `RequestBody`                                                                           | [SupplyConstructionRequestBody](../../Models/Requests/SupplyConstructionRequestBody.md) | :heavy_minus_sign:                                                                      | N/A                                                                                     |

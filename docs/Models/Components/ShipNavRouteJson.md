@@ -1,0 +1,13 @@
+# ShipNavRouteJson
+
+The routing information for the ship's most recent transit or current location.
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `Destination`                                                                                         | [ShipNavRouteWaypointJson](../../Models/Components/ShipNavRouteWaypointJson.md)                       | :heavy_check_mark:                                                                                    | The destination or departure of a ships nav route.                                                    |
+| `Origin`                                                                                              | [ShipNavRouteWaypointJson](../../Models/Components/ShipNavRouteWaypointJson.md)                       | :heavy_check_mark:                                                                                    | The destination or departure of a ships nav route.                                                    |
+| `DepartureTime`                                                                                       | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0)                 | :heavy_check_mark:                                                                                    | The date time of the ship's departure.                                                                |
+| `Arrival`                                                                                             | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0)                 | :heavy_check_mark:                                                                                    | The date time of the ship's arrival. If the ship is in-transit, this is the expected time of arrival. |

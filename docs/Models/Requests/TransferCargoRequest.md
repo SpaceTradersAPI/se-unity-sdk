@@ -1,0 +1,9 @@
+# TransferCargoRequest
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `ShipSymbol`                                                                                    | *string*                                                                                        | :heavy_check_mark:                                                                              | The transferring ship's symbol.                                                                 |
+| `RequestBody`                                                                                   | [TransferCargoTransferCargoRequest](../../Models/Requests/TransferCargoTransferCargoRequest.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |
